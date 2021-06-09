@@ -1,0 +1,32 @@
+h2 {
+    color: rgb(148, 94, 24);
+}
+
+.question,
+.content {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.content {
+    display: none;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.question span.up {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.up {
+    transition: 0.3s;
+}
